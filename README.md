@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+### RD Recomendador de Produtos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tecnologias e Bibliotecas Utilizadas
 
-## Available Scripts
+- **React.js** – Biblioteca JavaScript para construção da interface de usuário.
+- **json-server** – Ferramenta para simulação de API RESTful com dados de produtos.
+- **Tailwind CSS** – Framework de CSS utilitário para estilização e layout responsivo.
+- **Node.js (v18.3+)** – Ambiente de execução para JavaScript no servidor e build tools.
+- **Yarn** – Gerenciador de pacotes utilizado para instalação de dependências e execução de scripts.
+- **Jest / React Testing Library** – Bibliotecas para testes unitários e de componentes (opcional, caso implemente testes).
 
-In the project directory, you can run:
+## Objetivo do Projeto
 
-### `yarn start`
+Desenvolver a funcionalidade de recomendação de produtos RD Station, permitindo que usuários selecionem preferências e funcionalidades desejadas e recebam recomendações precisas de produtos correspondentes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **react** – Base para construção da interface de usuário.
+- **tailwindcss** – A Estilização foi realizada com TailwindoCSS.
+- **axios** – Cliente HTTP para fazer requisições.
+- **jest** – Framework de testes em JavaScript.
+- **@testing-library/react** – Utilitários para testar componentes React.
+- **Ant Design** – Biblioteca de componentes React para interfaces.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades
 
-### `yarn build`
+- **Seleção de Preferências**: Usuários podem escolher entre diferentes categorias de preferências, como integração, automação e personalização.
+- **Seleção de Funcionalidades**: Com base nas preferências selecionadas, os usuários podem optar por funcionalidades específicas, como gestão de leads, automação de processos e personalização de funis de vendas.
+- **Recomendação de Produtos**: Após a seleção de preferências e funcionalidades, o sistema apresenta uma lista de produtos recomendados que atendem aos critérios do usuário.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
